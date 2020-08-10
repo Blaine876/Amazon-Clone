@@ -1,0 +1,7 @@
+.navbar {
+  display: flex;
+}
+
+.navbar__logo {
+  height: 100px;
+}
