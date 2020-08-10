@@ -1,7 +1,100 @@
 .navbar {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #232f3e;
+  width: 100%;
+}
+
+.navbar__menuIcon {
+  color: white !important;
+  font-size: 3rem !important;
+  margin-left: 1rem;
 }
 
 .navbar__logo {
-  height: 100px;
+  object-fit: contain;
+  height: 50px;
+}
+
+.navbar__search {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.navbar__searchInput {
+  width: 100%;
+  padding: 0.4rem;
+  min-width: 15rem;
+  border: none;
+  border-radius: 0.5rem 0rem 0rem 0.5rem;
+}
+
+.navbar__searchIcon {
+  background: #ff9900 !important;
+  padding: 0.4rem;
+  border-radius: 0rem 0.5rem 0.5rem 0rem;
+}
+
+.navbar__links {
+  display: flex;
+
+  align-items: flex-end;
+}
+
+.navbar__link {
+  text-decoration: none;
+}
+
+.navbar__linkOption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-right: 1rem;
+  padding: 0.1rem;
+}
+
+.navbar__linkLineOne {
+  color: rgb(195, 195, 195);
+  font-size: 1.4rem;
+}
+
+.navbar__linkLineTwo {
+  color: rgb(229, 229, 229);
+  font-size: 1.6em;
+  font-weight: 800;
+}
+
+.navbar__linkLineTwo:hover {
+  color: #ff9900;
+}
+
+.navbar__shoppingBasketIcon {
+  color: white !important;
+  margin-right: -0.5rem;
+  font-size: 2.5rem !important;
+}
+
+.navbar__shoppingBasketCounter {
+  color: white;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.navbar__checkout {
+  display: flex;
+  margin-right: 1rem;
+}
+
+.navbar__checkout > span {
+  color: #ff9900;
+  font-size: 1.2rem;
+}
+
+.navbar__shoppingBasketIcon:hover {
+  color: #ff9900 !important;
 }
